@@ -1,4 +1,19 @@
-# Percolation
+# Algorithms 1 - Percolation Simulation with Monte Carlo
 
-This is my implementation of an assignment in [Algorithms 1 by Princeton University](https://coursera.cs.princeton.edu/algs4/assignments/percolation/specification.php) in Python.  
-An extra feature was implemented where the program runs the Monte Carlo Simulation $n$ times using Quick Find as well as Weighted Quick Union with path compression and displays the time taken for both algorithms to simulate their time complexity.
+This project implements an assignment from Princeton University's Algorithms 1 course in Python, adding an extra feature for performance comparison. It uses Monte Carlo simulations to test the time complexity of **Quick Find** and **Weighted Quick Union with Path Compression**.
+
+---
+
+## 📜 Overview
+
+This simulation estimates percolation thresholds and compares the performance of two algorithms:
+- **Quick Find**: A straightforward union-find implementation.
+- **Weighted Quick Union with Path Compression**: An optimized union-find that minimizes tree height.
+
+Both algorithms simulate connectivity in a grid `n` times, with runtimes displayed for direct comparison.
+
+## 🚀 Usage
+
+Run the script to simulate `n` trials and output the runtimes:
+```bash
+python percolation_simulation.py
