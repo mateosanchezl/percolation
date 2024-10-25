@@ -14,6 +14,4 @@ Both algorithms simulate connectivity in a grid `n` times, with runtimes display
 
 ## 🚀 Usage
 
-Run the script to simulate `n` trials and output the runtimes:
-```bash
-python percolation_simulation.py
+Run `solution.py`
